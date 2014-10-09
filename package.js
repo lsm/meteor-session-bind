@@ -1,7 +1,7 @@
 Package.describe({
   summary: "session-bind - two way data bindings between session variables and spacebars template html forms. Useful for reactive UI forms, eg. number of results.",
   version: "0.1.0",
-  git: " \* Fill me in! *\ "
+  git: "https://github.com/lsm/meteor-session-bind"
 });
 
 Package.onUse(function(api) {
@@ -14,5 +14,5 @@ Package.onUse(function(api) {
 Package.onTest(function(api) {
   api.use('tinytest');
   api.use('lsm:session-bind');
-  api.addFiles('lsm:session-bind-tests.js');
+  api.addFiles('lsm.session-bind-tests.js');
 });
